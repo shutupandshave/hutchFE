@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { PortalSyncService } from '../../services/portal-sync.service';
-import { UserAppProfile } from '../../interfaces/models/UserAppProfile';
 import { PortalSync } from '../../interfaces/responses/PortalSync';
 
 @Component({
@@ -13,7 +12,7 @@ export class UserProfileComponent implements OnInit {
   constructor(private portalSyncService: PortalSyncService) { }
 
   ngOnInit(): void {
-    this.portalSyncService.getPortalSync("1", "1", "1").subscribe((data) => (this.portalSync = data));;
+    this.portalSyncService.getPortalSync("appVersion", "dataVersion", "JWT").subscribe((data) => (this.portalSync = data));;
   }
 
 }

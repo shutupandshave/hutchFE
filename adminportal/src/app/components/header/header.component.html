@@ -1,20 +1,29 @@
 <form action="">
-  <div class="menu-item col-sm-12 col-md-4">
-    <label for="search">Search for a user</label>
+  <div class="menu-item col-sm-12 col-md-3">
+    <label for="search" class="sr-only">Search for a user</label>
     <input type="text" id="search" name="search" placeholder="Search for a user">
     <a routerLink="/user/1"><button>Go</button></a>
   </div>
-  <div class="menu-item col-sm-12 col-md-4">
-    <label for="versions">Choose a version:</label>
-    <select name="versions" id="versions">
-      <option value="">Please choose a version</option>
+  <div class="menu-item col-sm-12 col-md-3">
+    <label for="app-version" class="sr-only">Choose app version:</label>
+    <select name="app-version" id="app-version">
+      <option value="">Choose app version</option>
       <option value="1.1.1">1.1.1</option>
       <option value="1.1.0">1.1.0</option>
       <option value="1.0.19">1.0.19</option>
     </select>
   </div>
-  <div class="menu-item col-sm-12 col-md-4">
-    <label for="env">Choose an environment:</label>
+  <div class="menu-item col-sm-12 col-md-3">
+    <label for="data-version" class="sr-only">Choose data version:</label>
+    <select name="versions" id="data-version">
+      <option value="">Please data version</option>
+      <option value="1.1.1">1.1.1</option>
+      <option value="1.1.0">1.1.0</option>
+      <option value="1.0.19">1.0.19</option>
+    </select>
+  </div>
+  <div class="menu-item col-sm-12 col-md-3">
+    <label for="env" class="sr-only">Choose an environment:</label>
     <select name="env" id="env">
       <option value="">Please choose an environment:</option>
       <option value="dev">dev</option>

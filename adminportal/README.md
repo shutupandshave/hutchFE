@@ -12,7 +12,9 @@ That's not going to help you at all with whether I can write code so I just jump
 I've created a main landing page.
 Pulled some Data and created a userprofile page with a handful of data on it using the inbuilt interfaces.
 
+I couldn't find appVersion/dataVersion and had reached my time limit so didn't look at that.
 
+The only button that actually does anything on the site is the "go" button which takes you to the userprofile page.
 
 ## Development server
 

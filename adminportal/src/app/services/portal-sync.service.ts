@@ -9,7 +9,7 @@ import { Observable, of } from 'rxjs';
 export class PortalSyncService {
 
   constructor() { }
-  // TODO: Error handling would go here - something like this (copied and pasted)
+  // TODO: Error handling would go here - something like this (copied and pasted from another project)
   private handleError<T>(operation = 'operation', result?: T): any {
     return (error: any): Observable<T> => {
       // TODO: send the error to remote logging infrastructure
