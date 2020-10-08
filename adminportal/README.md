@@ -7,9 +7,10 @@ I installed and am using bootstrap as a general layout framework/library to save
 
 I changed the site to use SCSS instead of CSS.
 
-Honestly, if I was doing this for real I'd use at least the first hour to plan without writing any code.  I'd be looking at previous portals (if we had any), gathering user requirements, looking at how many of these I may be creating and planning what parts I would likely be re-using.
+If I was doing this for real I'd use at least the first hour to plan without writing any code.  I'd be looking at previous portals (if we had any), gathering user requirements, looking at how many of these I may be creating and planning what parts I would likely be re-using.
 That's not going to help you at all with whether I can write code so I just jumped into it.
-
+I've created a main landing page.
+Pulled some Data and created a userprofile page with a handful of data on it using the inbuilt interfaces.
 
 
 
