@@ -3,13 +3,14 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
 
 ## Development process
-I installed and am using bootstrap as a general framework/library to save myself writing some CSS.
+I installed and am using bootstrap as a general layout framework/library to save myself writing some CSS.
 
 I changed the site to use SCSS instead of CSS.
 
-Honestly, if I was doing this for real, I'd then use the next hour to plan without writing any code but that's not going to help you at all. 
+Honestly, if I was doing this for real I'd use at least the first hour to plan without writing any code.  I'd be looking at previous portals (if we had any), gathering user requirements, looking at how many of these I may be creating and planning what parts I would likely be re-using.
+That's not going to help you at all with whether I can write code so I just jumped into it.
 
-First thing I am going to tackle is oauth.  I decided on that because I was just writing some oauth for another home app I was developing, that said in this instance we're just mocking a token and storing it.
+
 
 
 ## Development server

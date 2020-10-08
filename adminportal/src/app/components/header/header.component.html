@@ -1,24 +1,25 @@
 <form action="">
-<label for="search">Search for a user</label>
-<input type="text" id="search" name="search" placeholder="Search for a user">
-<div>
-  <label for="versions">Choose a version:</label>
-
-  <select name="versions" id="versions">
-    <option value="">Please choose a version</option>
-    <option value="1.1.1">1.1.1</option>
-    <option value="1.1.0">1.1.0</option>
-    <option value="1.0.19">1.0.19</option>
-  </select>
-</div>
-<div>
-  <label for="env">Choose an environment:</label>
-
-  <select name="env" id="env">
-    <option value="">Please an environment:</option>
-    <option value="dev">dev</option>
-    <option value="test">test</option>
-    <option value="prod">prod</option>
-  </select>
-</div>
+  <div class="menu-item col-sm-12 col-md-4">
+    <label for="search">Search for a user</label>
+    <input type="text" id="search" name="search" placeholder="Search for a user">
+    <a routerLink="/user/1"><button>Go</button></a>
+  </div>
+  <div class="menu-item col-sm-12 col-md-4">
+    <label for="versions">Choose a version:</label>
+    <select name="versions" id="versions">
+      <option value="">Please choose a version</option>
+      <option value="1.1.1">1.1.1</option>
+      <option value="1.1.0">1.1.0</option>
+      <option value="1.0.19">1.0.19</option>
+    </select>
+  </div>
+  <div class="menu-item col-sm-12 col-md-4">
+    <label for="env">Choose an environment:</label>
+    <select name="env" id="env">
+      <option value="">Please choose an environment:</option>
+      <option value="dev">dev</option>
+      <option value="test">test</option>
+      <option value="prod">prod</option>
+    </select>
+  </div>
 </form>
